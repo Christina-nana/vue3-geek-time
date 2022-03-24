@@ -1,6 +1,7 @@
 import {createRouter,createWebHashHistory} from 'vue-router'
 import About from '../pages/about.vue'
 import Home from '../pages/home.vue'
+import Animation from '../pages/animation.vue'
 
 const routes=[
     {
@@ -12,6 +13,11 @@ const routes=[
         path:'/about',
         name:'About',
         component:About
+    },
+    {
+        path:'/animation',
+        name:'Animation',
+        component:Animation
     }
 ]
 
