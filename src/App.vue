@@ -10,6 +10,9 @@
       <li>
         <router-link to="/animation">9讲组件-动画效果</router-link>
       </li>
+       <li>
+        <router-link to="/storeData">10讲vuex</router-link>
+      </li>
     </ul>
     <div class="view">
       <router-view></router-view>
@@ -18,6 +21,7 @@
 </template>
 
 <script setup>
+
 </script>
 
 <style>
